@@ -1,0 +1,451 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.const{
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+.containers{
+    width: 90%;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.container img{
+    width: 100px;
+    height: 40px;
+}
+.container ul li{
+    list-style: none;
+    font-size: 18px;
+}
+.set{
+    margin-top: 10px;
+    list-style: none;
+}
+.nav-item{
+    list-style: none;
+    width: 320px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 80px;
+    justify-content: space-around;
+}
+.nav-item li:hover{
+    color: green;
+}
+.nav-icon{
+    list-style: none;
+    width: 130px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.nav-icon li:hover{
+    color: green;
+}
+
+.containers button{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(11, 236, 11);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.container-fluid{
+    width: 100%;
+    display: flex;
+    height: 44px;
+    justify-content: space-around;
+    background-color: aqua;
+    font-size: 18px;
+    font-weight: 400;
+    background: rgb(2,1,33);
+    background: rgb(2,1,33);
+background: linear-gradient(90.05deg, rgb(9,17,37) -2.5%, rgba(33,61,133) 100.83%);
+}
+.container-fluid span{
+    display: flex;
+    margin-top: 10px;
+    color: rgb(233, 225, 225);
+}
+.nav-cont{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+    background-color: gray;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+.nav-cont img{
+    height: 25px;
+    margin-top: -5px;
+    margin-left: -2px;
+}
+a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(15, 236, 15);
+}
+
+
+.home{
+    width: 100%;
+    height: 400px;
+}
+.home-image{
+    width: 80%;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.home-image img{
+    position: relative;
+    border-radius: 20px;
+    width: 1100px;
+    height: 400px;
+}
+.home-image button{
+    width: 300px;
+    height: 40px;
+    border: none;
+    color: green;
+    font-weight: bold;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 80px;
+}
+.text{
+    width: 100%;
+    height: 630px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+.text-text{
+    width: 80%;
+    height: 600px;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.text-text span{
+    width: 120px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.text-text h3{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.text-text p{
+    font-size: 20px;
+    color: gray;
+    margin-top: 20px;
+} 
+.card-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card img{
+    width: 260px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.fish{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 520px;
+}
+.card1{
+    background-color: white;
+    width: 160px;
+    border-radius: 5px;
+}
+.card1 img{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.card1 p{
+    font-size: 15px;
+    color: black;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.top{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: white;
+}
+.top1 {
+    width: 80%;
+    height: 300px;
+    margin-left: 120px;
+    margin-top: 60px;
+}
+.top1 h3{
+    font-size: 25px;
+}
+.phone{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(-180deg, rgb(255, 255, 255), rgb(255, 255, 255) 30%, rgb(240, 242, 247) 15%, rgb(240, 242, 247) 85%);
+}
+.phone img{
+    width: 250px;
+    height: 300px;
+    margin-left: 350px;
+}
+.card-body1{
+    margin-top: 140px;
+    margin-left: 20px;
+}
+.card-title{
+    font-size: 22px;
+}
+.card-text{
+    font-size: 22px;
+    font-weight: 500;
+}
+.phone-image{
+    width: 250px;
+    display: flex;
+    margin-top: 180px;
+    margin-left: -420px;
+}
+.phone-image img{
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
+
+.area{
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    background-color: aliceblue;
+}
+.area-text{
+    width: 80%;
+    margin-left: 120px;
+}
+.area-text h3{
+    font-size: 22px;
+    margin-top: 50px;
+}
+.area-text ul{
+    margin-top: 20px;
+}
+.area-text li{
+    list-style: none;
+    margin-top: 10px;
+    font-size: 20px;
+    color: gray;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stop{
+    width: 100%;
+    height: 670px;
+    display: flex;
+    background-color: rgb(2, 2, 27);
+}
+.save{
+    width: 80%;
+    margin-left: 120px;
+    margin-top: 80px;
+}
+.save h6{
+    font-size: 18px;
+    color: white;
+}
+.save p{
+    font-size: 20px;
+    color: gray;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+hr{
+    color: gray;
+}
+.last{
+     display: flex;
+     margin-top: 60px;
+}
+.last img{
+    width: 80px;
+    height: 80px;
+}
+.last ul {
+    margin-left: 50px;
+    list-style: none;
+    text-decoration: none;
+}
+.last ul li{
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+}
+.last ul li:hover{
+text-decoration: underline;
+}
+.footer-img img{
+    margin-left: 100px;
+    width: 250px;
+    height: 250px;
+}
+
+
+
+@media (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+    .containers{
+        width: 100%;
+    }
+    .containers img{
+        width: 80px;
+        margin-left: 10px;
+    }
+    .set{
+        visibility: hidden;
+    }
+    .nav-item{
+        visibility: hidden;
+    }
+    .nav-icon {
+        width: 90px;
+        margin-left: -300px;
+
+    }
+    .containers button{
+        margin-top: 10px;
+        width: 100px;
+    }
+    .container-fluid p{
+        display: none;
+    }
+    .container-fluid a{
+        margin-left: 120px;
+    }
+    .home{
+        width: 100%;
+        height: auto;
+    }
+    .home-image{
+        margin-left: 25px;
+    }
+    .home-image button{
+        margin-left: 10px;
+        width: 180px;
+    }
+    .home-image img{
+        width: 450px;
+    }
+    .text{
+        width: 100%;
+        height: auto;
+    }
+    .text-text{
+        width: 90%;
+        height: auto;
+        margin-left: 30px;
+    }
+    .card-image{
+        width: 100%;
+        height: auto;
+    }
+    .card{
+        width: 100%;
+        height: auto;
+    }
+    .card img{
+        width: 400px;
+        margin-left: 10px;
+    }
+    .fish{
+        width: 100%;
+        height: auto;
+    }
+    .card1{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .card1 p{
+        margin-left: 5px;
+    }
+    .top{
+        width: 100%;
+        height: auto;
+    }
+    .top1 h3{
+        text-align: center;
+        font-size: 30px;
+    }
+    .top1{
+        width: 100%;
+        height: auto;
+        margin-left: 30px;
+    }
+    .phone{
+        width: 100%;
+        height: auto;
+        margin-top: 60px;
+    }
+    .phone img{
+        width: 350px;
+        margin-left: 50px;
+    }
+    .card-body1{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .phone-image{
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .phone-image img{
+        width: 200px;
+        margin-left: 20px;
+    }
+    .area{
+        display: none;
+    }
+    .stop{
+        width: 100%;
+        height: auto;
+    }
+    .save{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .last img{
+        display: none;
+    }
+
+}
